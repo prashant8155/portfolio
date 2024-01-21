@@ -22,3 +22,30 @@ nav ul li{
     display: inline-block;
     padding: 10px 25px;
 }
+nav ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+nav ul li a:hover{
+    color: red;
+    transition: .5s;
+}
+.text{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+}
+h1{
+    margin: 2px 0px 2px;
+    font-size: 75px;
+}
+h3{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+h4{
+    
+    letter-spacing: 1px;
+    font-size: 20px;
+}
