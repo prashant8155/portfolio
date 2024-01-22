@@ -66,10 +66,9 @@ button{
     border: spx solid transparent;
     font-weight: bold;
     padding: 13px 30px;
-    border-radius: 10px;
+    border-radius: 15px;
     transition: 2s;
     margin-top: 10px;
-    margin-right: 10px;
 }
 button:hover{
 background-color: transparent;
