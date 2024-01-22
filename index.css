@@ -3,11 +3,9 @@
     margin: 0px;
     font-family: cursive;
 }
+
 body{
-    background-image: url(img/ijh.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+    background-color:  #081b29;
 }
 nav{
     display: flex;
@@ -24,28 +22,57 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: black;
+    color: #ffffff;
 
+}
+.logo{
+    color: #ffffff;
 }
 nav ul li a:hover{
     color: red;
     transition: .5s;
 }
+span{
+    color: red;
+}
 .text{
     position: absolute;
     top: 30%;
     left: 8%;
+    color: #ffffff;
+    width: 50%;
 }
+
 h1{
     margin: 2px 0px 2px;
-    font-size: 75px;
+    font-size: 50px;
+    color: rgb(134, 157, 209);
 }
 h3{
     font-size: 25px;
     margin-bottom: 25px;
+   
 }
 h4{
     
     letter-spacing: 1px;
     font-size: 20px;
+   
+}
+button{
+    background-color: rgb(134, 157, 209);
+    color: white;
+    text-decoration: none;
+    border: spx solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 10px;
+    transition: 2s;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+button:hover{
+background-color: transparent;
+border: 2px solid #f9004d ;
+ cursor: pointer;
 }
