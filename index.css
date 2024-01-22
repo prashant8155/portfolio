@@ -5,7 +5,9 @@
 }
 
 body{
-    background-color:  #081b29;
+background-image: url(img/portfolio\ background.png);
+background-size: cover;
+background-repeat: no-repeat;
 }
 nav{
     display: flex;
@@ -74,4 +76,7 @@ button:hover{
 background-color: transparent;
 border: 2px solid #f9004d ;
  cursor: pointer;
+}
+.img{
+    align-items: right;
 }
