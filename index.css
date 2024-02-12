@@ -2,64 +2,33 @@
     padding: 0px;
     margin: 0px;
     font-family: cursive;
-}
 
-body{
-background-image: url(img/portfolio\ background.png);
-background-size: cover;
-background-repeat: no-repeat;
+.navbar{
+    justify-content: space-between !important;
+    font-size: 20px;
+    letter-spacing: 0.05rem;
+    
 }
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 45px;
-    padding-left: 8%;
-    padding-right: 8%;
+.navbar-light .navbar-nav .nav-link{
+color: #fff;
+padding-left: 50px;
 }
-nav ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 10px 25px;
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #f9004d;
+    transition: 0.3s;
 }
-nav ul li a{
-    text-decoration: none;
-    color: #ffffff;
-
-}
-.logo{
-    color: #ffffff;
-}
-nav ul li a:hover{
-    color: red;
-    transition: .5s;
-}
-span{
-    color: red;
+.navbar-light a{
+    color: #fff;
+    padding: 20px;
 }
 .text{
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 8%;
-    color: #ffffff;
     width: 50%;
 }
-
-h1{
-    margin: 2px 0px 2px;
-    font-size: 50px;
-    color: rgb(134, 157, 209);
-}
-h3{
-    font-size: 25px;
-    margin-bottom: 25px;
-   
-}
-h4{
-    
-    letter-spacing: 1px;
-    font-size: 20px;
-   
+.navbar.navbar-toggler{
+    color: #fff;
 }
 button{
     background-color: rgb(134, 157, 209);
